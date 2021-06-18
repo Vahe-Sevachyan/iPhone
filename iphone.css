@@ -1,0 +1,63 @@
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    filter:drop-shadow(-10px 10px 10px #00000080);
+    transform: scale(0.75);
+}
+.cover{
+    width: 408px;
+    height: 843px;
+    border-radius: 66px;
+    background-color: dodgerblue;
+}
+.switch{
+    width: 9px;
+    height: 40px;
+    border-radius: 4.5px;
+    background-color: dodgerblue;
+    margin-left: -410px;
+    margin-top: -296px;
+}
+.volume{
+    width: 9px;
+    height: 70px;
+    border-radius: 4.5px;
+    background-color: dodgerblue;
+    margin-left: -410px;
+    margin-top: 30px;
+}
+#vol12{
+    margin-top: 10px;
+}
+.sideBtn{
+    width: 9px;
+    height: 117px;
+    border-radius: 4.5px;
+    background-color: dodgerblue;
+    margin-left: -3px;
+    margin-top: -300px;
+}
+/* check from here */
+.screen{
+    width: 390px;
+    height: 830px;
+    border-radius: 68px;
+    border: 7pt solid black;
+    margin-left: -408px;
+    transform: scale(0.99);
+    background-image: url("iphoneBackground.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.notch{
+    width: 200px;
+    height: 40px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: black;
+    margin-left: -204px;
+    transform: translate(-50%);
+    margin-top: -790px;
+}
